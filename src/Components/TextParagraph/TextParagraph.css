@@ -1,6 +1,7 @@
 .textParagraph {
-  color: 000000;
-  font-weight: 400;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 27px; 
 }
