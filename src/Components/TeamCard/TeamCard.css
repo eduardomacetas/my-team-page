@@ -1,0 +1,20 @@
+.teamCard {
+  width: 300px;
+  height: 450px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px black;
+}
+
+.teamCard .upper-container {
+  padding: 20px 0 0;
+}
+
+.teamCard .lower-container {
+  display: flex;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  justify-content: left;
+}
