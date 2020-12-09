@@ -2,12 +2,23 @@
   width: 300px;
   height: 450px;
   background: white;
-  border-radius: 10px;
-  box-shadow: 0px 1px 10px 1px black;
+  padding: 20px 0;
 }
 
 .teamCard .upper-container {
   padding: 20px 0 0;
+}
+
+.teamCard .upper-container .use-role {
+  color: #000000;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 20px 0 0 10px;
+  position: relative;
+  text-transform: uppercase;
+  top: -245px;
+  writing-mode: vertical-rl;
 }
 
 .teamCard .lower-container {
@@ -17,4 +28,5 @@
   font-weight: 600;
   font-size: 18px;
   justify-content: left;
+  padding: 5px 10px;
 }
