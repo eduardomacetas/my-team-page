@@ -1,0 +1,9 @@
+.section-team {
+  padding: 10px 30px;
+}
+
+.section-team .row{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
