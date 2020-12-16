@@ -1,7 +1,7 @@
 import React from 'react';
-import './TeamCard.css';
+import './Card.css';
 
-class TeamCard extends React.Component {
+class Card extends React.Component {
   render() {
     return (
       <div class="teamCard">
@@ -19,4 +19,4 @@ class TeamCard extends React.Component {
   }
 }
 
-export default TeamCard;
+export default Card;
