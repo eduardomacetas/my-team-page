@@ -1,9 +1,14 @@
-.section-team {
-  padding: 10px 30px;
+.team-section {
+  padding: 10px 40px;
 }
 
-.section-team .row{
+.team-section .row {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 350px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.team-section .column {
+  float: left;
 }
