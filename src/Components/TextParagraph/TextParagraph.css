@@ -3,5 +3,11 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 27px; 
+  line-height: 27px;
+}
+
+@media screen and (max-width: 375px) {
+  .textParagraph {
+    padding-bottom: 10px;
+  }
 }
