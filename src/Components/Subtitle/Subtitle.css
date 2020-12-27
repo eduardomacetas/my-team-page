@@ -1,8 +1,14 @@
 .subtitle {
-  color: #000000;
   line-height: 27px;
   font-weight: 600;
   font-size: 18px;
   font-style: normal;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px) {
+  .subtitle {
+    padding-top: 38px;
+    padding-bottom: 10px;
+  }
 }
