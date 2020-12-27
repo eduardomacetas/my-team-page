@@ -1,10 +1,19 @@
-.header { 
+.header {
   padding: 110px 30px;
   text-align: left;
 }
 
-.header .row {
-  background-color: skyblue;
+.header .column {
   float: left;
   width: 50%;
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 70px 10px;
+  }
+
+  .header .column {
+    width: 100%;
+  }
 }
